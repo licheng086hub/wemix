@@ -1,0 +1,3 @@
+# requirements.txt
+web3>=6.0.0
+python-dotenv>=1.0.0   # 如果 monitor.py 里要用 dotenv，可保留；不用就删
