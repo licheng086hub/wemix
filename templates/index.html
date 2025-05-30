@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEMIX Blocks</title>
+</head>
+<body>
+<h1>Latest WEMIX Blocks</h1>
+<table border="1">
+<tr><th>Number</th><th>Hash</th><th>Timestamp</th></tr>
+{% for block in blocks %}
+<tr>
+  <td>{{ block.number }}</td>
+  <td>{{ block.hash }}</td>
+  <td>{{ block.timestamp }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
